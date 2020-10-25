@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://https://www.sequence.co.at/img/Schriftlogo_mitlogo_SchwarzNEUGlow.svg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">SEQUENCE</h3>
@@ -16,8 +16,13 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
+<p align="center"> 
+      This Readme-File is still a WIP!
+    <br>
+      This project was done as a diploma-project for whilst graduating in IT at the HTL Wien West, Vienna, Austria.
+      The topic of this project was 
+    <br>
+      >"Development of a web-based media-database and corresponding projectrelated management application."<br>
 </p>
 
 ## 📝 Table of Contents
@@ -33,7 +38,33 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
+It consisted of realising the following tasks:
+<br>
+-Creation of a server environment
+-Development of a database
+containing media-, employee-,
+stakeholder-, and project-related
+data.
+<br>
+-Development of a graphical user
+interface (responsive design).
+<br>
+-Implementation of media-playback
+as well as up- and download
+functionalities
+<br>
+-Realization of administrative
+features (data management,
+development of a notification
+system and user-related statistics)
+<br>
+-Realization of elemental pictureand video-manipulation
+functionalities.
+<br>
+-Development of an Android
+application.
 
+<br>
 Write about 1-2 paragraphs describing the purpose of your project.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>

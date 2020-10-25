@@ -42,25 +42,12 @@
 It consisted of realising the following tasks:
 <br>
 - Creation of a server environment
-- Development of a database
-containing media-, employee-,
-stakeholder-, and project-related data
-- Development of a graphical user
-interface (responsive design)
-
-- Implementation of media-playback
-as well as up- and download functionalities
-- Realization of administrative
-
-features (data management,
-development of a notification
-system and user-related statistics)
-
-- Realization of elemental pictureand video-manipulation
-functionalities
-
-- Development of an Android
-application
+- Development of a database containing media-, employee-, stakeholder-, and project-related data
+- Development of a graphical user interface (responsive design)
+- Implementation of media-playback as well as up- and download functionalities
+- Realization of administrative features (data management, development of a notification system and user-related statistics)
+- Realization of elemental pictureand video-manipulation functionalities
+- Development of an Android application
 
 <br>
 Write about 1-2 paragraphs describing the purpose of your project.

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-  <object class="logo" data="img/SVG/Element 2.svg" type="image/svg+xml"></object>
+  <object class="logo" data="https://https://www.sequence.co.at/img/Schriftlogo_mitlogo_SchwarzNEUGlow.svg" type="image/svg+xml"></object>
  <img width=200px height=200px src="https://https://www.sequence.co.at/img/Schriftlogo_mitlogo_SchwarzNEUGlow.svg" alt="Project logo"></a>
 </p>
 

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sequence</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.8.0/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header class="sticky-top">
+<!-- Navbars -->
+    <div id="include">    
+        <script>
+            window.onload = function(){
+                $.get("Navbar.php", function(data){
+                    $("#include").html(data);
+                })
+            }
+        </script>
+    </div>
+    </header>
+<!-- Slideshow -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background0.jpg">
+                
+                <div class="carousel-caption">
+                <h1 class="display-2">Sequence</h1>
+                <h3>Organisierte Kreativität.</h3>
+                <a href="tutorials.html"><button type="button" class="btn btn-outline-dark btn-lg">DEMO</button></a>
+                <a href="registrierung.php"><button type="button"  class="btn btn-primary btn-lg">Starten</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.pexels.com/photo/low-light-photography-of-computer-gaming-rig-set-1038916/"><img src="img/Arbeitsplatz.jpg" alt="Fox-Foto_Arbeitsplatz"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.pexels.com/photo/low-angle-view-of-lighting-equipment-on-shelf-257904/"><img src="img/Compo_nah.jpg" alt="Pixabay-Composition_nah"></a>
+            </div>
+        </div>
+    </div>
+<!-- Zwischenbar -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead" id="jumbotext">Willkommen bei SEQUENCE, einer webbasierten Mediendatenbank- und Projektmanagementapplikation für Profis im kreativen Sektor!</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="registrieren.php"><button type="button" class="btn btn-outline-secondary btn-lg">Registrierung!</button></a>
+            </div>
+        </div>
+    </div>
+
+<!-- Seitentitel -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">In charge.</h1>
+            </div> 
+            <hr>
+            <div class="col-12">
+                <p class="lead">Verwendete Technologien bei bei Projektaufbau:</p>
+            </div>
+        </div>
+    </div>
+
+<!-- 3 Spalten -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h5>HTML5</h5>
+                <p></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-bootstrap"></i>
+                <h5>Bootstrap 4</h5>
+                <p></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h5>CSS3</h5>
+                <p></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-js"></i>
+                <h5>Javascript</h5>
+                <p></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-php"></i>
+                <h5>PHP</h5>
+                <p></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-adobe"></i>
+                <h5>Adobe Photoshop</h5>
+                <p></p>
+            </div>
+            <!-- Weitere Icons hier: 
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-linux"></i>
+                <h3>Linux</h3>
+                <p>css3</p>
+            </div>
+            -->
+        </div>
+    <hr class="my-4">
+    </div>
+
+<!-- 2 Spalten -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-9">
+                <h4>Was wir anbieten:</h4>
+                <p>Wir bieten Organisationen, die vorwiegend mit Film-, Bild-, und Tonmedien arbeiten 
+                    eine Plattform, durch die ihnen ermöglicht wird, einzelnen Projekten die Mitarbeiter, 
+                    Zeitpläne und Subtasks zuzuweisen, zu bearbeitende Medien online zu sichten und hoch- bzw. 
+                    herunterzuladen. Eine zusätzliche Kommentarfunktion ermöglicht einen einfachen Informationsaustausch
+                    zwischen Ihren Mitarbeitern.</p>        
+                    <br>
+                <a href="konzept.html" class="btn btn-primary">Mehr erfahren</a>       
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.pexels.com/photo/man-in-raglan-sleeve-shirt-using-computer-2330137/"><img src="img/Kassette.jpg" class="img-fluid" alt="Rodolfo_Quirós-Arbeiter"></a>
+            </div>
+        </div>
+    </div>
+
+<!-- Fester Hintergrund -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+                <object class="logo" data="img/SVG/Element 2.svg"
+                    type="image/svg+xml"></object>
+            <!--    <img class="img-fluid"  src="img/Logo_schwarz_groß.png"s="img-fluid"  src="img/Logo_schwarz_groß.>-->
+            </div>
+        </div>
+    </figure>
+
+<!-- Das Team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-8">Mitwirkende</h2>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+<!-- Mitarbeiter -->
+    <div class="container-fluid padding ">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/sahil.png">
+                    <h5 class="card-title">Sahil Malhi</h5>
+                    <p class="card-text">Appentwicklung, CI-Design, Datenbank, Javascript</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/bjoern2.png">
+                    <h5 class="card-title">Björn Rades</h5>
+                    <p class="card-text">Javascript, DB, Webdesign, CI-Design, FFMPEG</p>
+                    <a href="https://at.linkedin.com/in/bj%C3%B6rn-rades-a52b60193" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/michael.png">
+                    <h5 class="card-title">Michael Rieder</h5>
+                    <p class="card-text">Serverstruktur (Linux), Netzwerktechnik, Javascript</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- 2 Säulen -->
+    <div class="container-fluid padding beschreibung">
+        <hr class="my-4">
+        <div class="row padding justify-content-center">
+            <div class="col-lg-6">
+                <h2>Unser Projektziel</h2>
+                    Wir bieten Organisationen, welche vorwiegend mit Film-, Bild-, und Tonmedien arbeiten 
+                    eine Plattform, mit welcher ihnen ermöglicht wird, einzelnen Projekten Mitarbeiter, 
+                    Zeitpläne und Subtasks zuzuweisen, zu bearbeitende Medien online zu sichten und hoch- 
+                    bzw. herunterzuladen. <br>
+                    Zusätzlich soll eine Kommentarfunktion einen einfachen Informationsaustausch 
+                    zwischen Mitarbeitern ermöglichen. Es handelt sich hierbei um eine webbasierte Mediendatenbank 
+                    mit Onlinezugriff für Filmproduktionen, Presseagenturen, etc., Schwerpunkt Postproduktion.<br>
+                    <br>
+                    
+            </div>
+            <div class="col-lg-3">
+                <a href="https://www.pexels.com/photo/light-love-los-angeles-traveling-3379933/"><img src="img/Kyle.jpg" id="Kameramann" class="img-fluid"></a>
+            </div>
+        </div>        
+    </div>
+<!-- Eine Säule -->
+    <div class="container-fluid padding beschreibung">
+        <div class="row padding justify-content-center">
+            <div class="col-lg-9">
+                <h2>Projektablauf</h2>
+                    Begonnen wird mit dem Aufbau einer eigenen, dem Projekt entsprechenden, Serverstruktur mit 
+                    Firewall und Monitoring. Es ermöglicht den Angestellten ortsungebunden Zugriff auf die ihnen 
+                    zugewiesenen Mediendateien, um diese mittels einer grafischen Oberfläche (Website) direkt 
+                    aufzurufen (Wiedergabe, Down- und Upload).<br> 
+                    Dieser externe Zugriff wird mithilfe einer Loginfunktion ermöglicht. Bilder sowie Videos werden online gesichtet und können zur 
+                    Arbeitsablaufsoptimierung minimal, das heißt mittels beispielsweise dem Erstellen von 
+                    Screenshots, Markieren von Flächen oder dem Einfügen von Text, bearbeitet werden. <br>
+                    Eine Benachrichtigungsfunktion sorgt dafür, dass Kommentare oder auch Aufgaben die zugeteilt 
+                    wurden, den betreffenden Mitarbeiter oder Vorgesetzten am eingeloggten Gerät erreichen. 
+                    Ein Log sorgt dafür, dass die einzelnen Arbeitsschritte genauestens dokumentiert werden.
+                    <br>  
+                    Jeder dieser Schritte (Versionen) wird mit der Datenbank synchronisiert. Nur Vorgesetzten 
+                    soll es möglich sein, ein neues Projekt und - falls erwünscht – damit einhergehende Subtasks zu 
+                    erstellen, Aufgabenbeschreibungen zu verfassen und Mitarbeiter zuzuteilen. In einer Übersicht 
+                    kann vom Vorgesetzten betrachtet werden, welchen Status Projekte und/oder Subtasks haben 
+                    (Grün – Aktiv, Gelb – Pausiert, Rot – Abgebrochen/bereits beendet).
+                    
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    
+<!-- Links -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <!--
+                <div class="col-md-4">
+                    <hr class="dark">
+                    <img src="img/Schriftlogo_mitlogo_weiß_schmal.png">
+                    <hr class="dark">
+                    <p>555-555-555</p>
+                    <p>email@gmx.at</p>
+                    <p>teststr. 53</p>
+                    <p>Wien, Österreich</p>
+                </div>
+                -->
+                <div class="col-12">
+                    <hr class="dark-top">
+                    <img src="img/Schriftlogo_mitlogo_weiss_schmal.png">
+                    <hr class="dark smol">
+                    <h5>Kontakt</h5>
+                    <hr class="dark">
+                    <p>555-555-555</p>
+                    <p>email@gmx.at</p>
+                    <p>teststr. 53</p>
+                    <p>Wien, Österreich</p>
+                </div>
+                <!--
+                <div class="col-md-4">
+                    <hr class="dark">
+                    <h5>HTL Wien West</h5>
+                    <hr class="dark">
+                    <p>Montags 8Uhr - 17Uhr</p>
+                </div>
+                -->
+                <div class="col-12">
+                    <hr class="dark-100">
+                    <h5>&copy; Sequence</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

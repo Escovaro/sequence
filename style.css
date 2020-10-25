@@ -1,0 +1,1016 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/* Backup Dark: 
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserat', sans-serif;
+    color: white;
+    background-color: #110618;
+}
+*/
+/* Schrift 1. Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+/* Hintergrund 1. Navbar */
+.bg-dark {
+    background-color: #c1c1cf9f !important;
+}
+
+/* Backup Dark
+.bg-dark {
+    background-color: #080930 !important;
+}
+*/
+/* Hintergrund 2. Navbar */
+.bg-light {
+    background-color: #57535a9c !important;
+}
+/* Schrift 2. Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(224, 224, 224);
+}
+
+.navbar {
+   padding: .8rem;   
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1em !important;
+}
+ul.nav a:hover { color: #fff !important; }
+
+.logout {
+    color: rgb(133, 45, 45) !important;
+    
+}
+.logout:hover {
+    color: rgb(107, 141, 94) !important;
+    
+}
+
+
+
+/* Slideshow */
+.carousel-inner img {
+    width: 100%;
+    height: 910px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 8px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    background-color: #b68bf760;
+    border: 1px solid #6648b1;
+    color: black;
+    border-radius: 1px;
+}
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.btn-outline-dark:hover {
+    background-color: #563d7c;
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    color: black;    
+}
+
+/* lead ist der Text im Jumbotron */
+.lead {
+    text-align: center;
+}
+#jumbotext {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* PADDING (Oft verwendet!) 
+.padding {
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+*/
+
+/* Icon-Farben Technologien */
+.fa-code {
+    color: #e54d26;
+}
+.fa-css3 {
+    color: #2163af;
+}
+.fa-linux {
+    max-width: 10%;
+}
+.fa-js {
+    color: #ffcc00;
+}
+.fa-php {
+    color: #0066ff;
+}
+.fa-bootstrap {
+    color: #9900ff;
+}
+.fa-adobe {
+    color: #ff0000;
+}
+
+/* Weitere Icons (haupts. Social Media */
+.fa-code, .fa-bold, .fa-css3, .fa-linux, .fa-js, .fa-php, .fa-bootstrap, .fa-adobe {
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif {
+    max-width: 100%;
+}
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-twitter {
+    color: #00aced;
+}
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+/* Footer */
+footer {
+    background-color: #9999a8f6;
+    color: white;
+    padding-top: 2rem;
+}
+/* Horizontale Linien */
+hr.dark {
+    border-top: 1px solid #d5d5d5;
+    width: 15%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.dark-top {
+    border-top: 1px solid #d5d5d5;
+    width: 25%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.dark-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 80%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+} 
+.beschreibung {
+    font-size: 16px;
+}
+
+.footer a {
+    color: #d5d5d5;
+}
+
+/* Skalierungen kleinere Geräte */
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+  }
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+        font-family: 'Montserrat';
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption btm {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2rem;
+        padding: .7rem;
+    }
+}
+
+.col-lg-6 p {
+    font-size: 18px;
+}
+
+/*--- Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.logo {
+   display: block;
+   margin: auto;
+   margin-top: 120px;
+   width: 20%;    
+}
+/* Logo SVG np1 */
+.logo_np1 {
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    width: 60%;    
+ }
+#fixed {
+  background-image: url('img/Scheinwerfer.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*-- Kommentare --*/
+.commentbox {
+    width: 845px;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+    /*position ist notwendig, damit die Klasse der Buttons erkannt wird!*/
+    position: relative;
+}
+.commentbox p {
+    width: 845px;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    background-color: white;    
+}
+
+/*--- Bootstrap Padding Fix --- */
+[class*="col-"] {
+    padding: 1rem;
+}
+/*
+[class*="col"] {
+    padding: 1rem;
+}
+*/
+
+/*--- Inputfelder --- */
+.input {
+    border-radius: 2px;
+    border-width: 1px;
+    margin-bottom: 0.5rem;
+}
+/* Verwaltungs-Tables */
+.verw_td {
+    text-align: center;   
+}
+.verw_th {
+    text-align: center;   
+}
+.status {
+    max-width: 310px;
+}
+.avatar_verw {
+    width: 30px;
+    
+
+}
+/*
+td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;   
+}
+
+th {
+    text-align: center;
+}
+#mySTTable {
+    color: #000;
+    
+}
+*/
+
+/*Projektansicht */
+/* Ja, der Subtaskcontainer wird auch in der Projektansicht verwendet, da gleiche Formatierung */
+.subtask-container {
+    background-color: #F8F9FA!important;
+    max-height: 500px;
+    max-width: 850px;    
+    color: black;
+    border: 2px solid darkgrey;
+    border-radius: 2px;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.thumbnail-subtaskmenu {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.projektansicht_thumbnail {
+    max-width: 700px;
+    max-height: 400px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+/* Card ist Behälter der Projekt- Subtaskinformationen (nicht nur, auch Subtaskerstellung1) */
+.card {
+    background-color: white;
+    border: none;
+}
+.cardsubtaskerstellung {
+    background-color: #FBFAFA;
+    border: none;
+}
+/* Subtaskname bei Subtaskerstellung leer */
+.errormsgsbtsk{
+    box-shadow: 0 0 5px red;
+}
+.card p {
+    font-size: 15px;
+}
+.card-title {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+}
+.card-text {
+    color: black ;
+    margin-left: 5%;
+}
+
+.Projektinfo {
+    max-width: 700px;
+}
+.form-group {
+    max-width: 700px;
+}
+.panel {
+    max-width: 700px;
+}
+
+/* Subtaskansicht */
+.video-player {
+    max-width: 900px;
+    max-height: 700px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+.container_subttaskansichtdyn {
+    width: 100%;
+    padding-right: 15px;    
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.custom-file-upload2 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 0rem;
+    background-color: #89fbbe;
+}
+/*  Folgender Teil ist alles für Drawing! */ 
+.wrapper {
+    max-width: 900px;
+    /* Zentriert das Zeichnen-Canvas */
+    /* margin: auto; */
+     font-family: "Arial"; 
+}
+/* Werkzeuge */
+.toolbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.toolbar a {
+    float: left;
+    width: 5%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    color: black;
+}
+
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: #f2e043;
+}
+.gray {
+    background-color: gray;
+}
+
+.dicke1 {
+    width: px;
+}
+.dicke2 {
+    width: 50px;
+}
+.dicke3 {
+    width: 80px;
+}
+
+/* Change color on hover */
+.toolbar a:hover {
+    background-color: #563d7c;
+    border-radius: 2px;
+  }
+
+/* Change color on selected icon */
+.selected {
+    background-color:#563d7c ; 
+    border-radius: 4px; 
+}
+.notselected {
+    background-color:#a888da;
+    border-radius: 4px;
+}
+
+#my-canvas{   
+    width: 100%;  
+    border: 3px solid #000000;
+}
+
+/*---Media Queries 
+@media (max-width: 570px) {
+    #createImg {
+        max-width: 550px;        
+    }
+  }
+*/
+
+/*
+#img-data-div{
+    width: 100%; 
+}
+*/
+
+/* Resize image to container */
+.toolbar a img{
+    max-width:100%;
+    height:auto;
+}
+
+/*Projekt- u. Subtaskerstellung */
+.ProjektErstellung-container {
+    background-color: #F8F9FA !important;    
+    color: black;
+    border: 2px solid darkgrey;
+    border-radius: 2px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+label {
+    margin-top: 0.8rem;
+}
+
+.btn-weiter {
+    margin-bottom: 1rem;
+}
+
+#progress {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+/* Icons Teamauswahl Projekterstellung */
+.fa-user-tie {
+    color: #d1beeed3;
+    width: 500px;
+}
+.fa-users {
+    color: #d1beeed3;
+    width: 500px;
+}
+.fa-user {
+    color: #d1beeed3;
+    width: 500px;
+}
+
+/*Zurück-Button*/
+.customsubmit_back{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;    
+    background: white;
+    background-color: rgba(248, 180, 180, 0.521);
+}
+.customsubmit_back:hover{
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;    
+    background: white;
+    background-color: rgba(154, 219, 164, 0.363);
+}
+
+/* Projektübersicht */
+.projektuebersicht-container {
+    /*background-color: darkseagreen;*/
+    width: 80%;  
+    color: #110618;
+    border: 2px solid black;
+    border-radius: 2px;  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  .aktiv {
+    background-color: #60dd89 !important;
+  }  
+  .aktiv:hover {
+    background-color: #ffffff !important;
+  }
+
+  .hold {
+    background-color: #ceeb51 !important;
+  }  
+  .hold:hover {
+    background-color: #e9ff86 !important;
+  }
+
+  .finished {
+    background-color: #d34646 !important;
+  }  
+  .finished:hover {
+    background-color: #ff8484 !important;
+  }
+
+  /* Projektübersicht */
+.verwaltungs-container {
+    /*background-color: darkseagreen;*/
+    width: 85%;      
+    background-color: rgba(247, 245, 245, 0.5);
+    border-radius: 2px;
+    border: 1px solid #753a991f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#register{
+    background-color: rgba(247, 245, 245, 0.5);
+    border-radius: 2px;
+    border: 1px solid #753a991f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Suchfunktion */
+/* Style the input field inside the navbar */
+.navbar input[type=text] {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    height: 25px;
+    padding: 6px;
+    margin-top: 8px;    
+    border-bottom: 1px solid #080930;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    background-color: #98969A;
+    width: 200px;      
+  }
+  .navbar input[type=text]:focus {
+    width: 300px;  
+    border-bottom: 1px solid #080930;  
+    box-shadow: 0 1px 0 0 #080930;     
+    /* box-shadow: 0 0 0 2px #e9e9e9, 0 1px 3px #ce93d8;  */
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;     
+  }
+ .icon {
+    color: #080930;    
+}
+
+/* Adressierung einzelner Bilder (Noch Leer) */
+
+/*
+  .active-purple-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+  }
+.custom-form-control {
+    border-bottom: 1px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+*/
+
+
+/* Das ist Standard-Scalierungs-Template --> */
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+/* test.html ONLY */
+.gradient {
+    padding: 50px 10px;
+    background: linear-gradient(to right,#eb87ff,#f6ccff);
+}
+/* test.html ONLY ENDE */
+
+/* register.php ONLY */
+#register{
+    background-color: rgba(247, 245, 245, 0.5);
+    border-radius: 2px;
+    border: 1px solid #753a991f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-links{
+    display: block;
+    margin: auto;
+    text-align: center;   
+}
+.login-form-links_login{
+    display: block;
+    margin: auto;
+    text-align: center;   
+    height: 200px; 
+}
+/* Projektanlage */
+.login-form-links_np{
+    display: block;
+    margin: auto;
+    text-align: left;    
+}
+.login-form-rechts{
+    /*text-align: center;*/
+}
+#regpic{
+    max-width: 100%;
+    height: 692px;
+    border-radius: 1px;
+    border: 1px solid #753a991f;    
+}
+.btn-area {    
+    min-width: 3%;
+}
+
+.btn-outline-light:hover {
+    background-color: #b68bf760;
+}
+
+.selected {
+    background-color: #d1beeed3;
+    border-radius: 4px;
+}
+.btn-outline-light{
+    color: #495057;
+}
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    color: #495057;
+}
+/*
+input[type="file"] {
+    display: none;
+}
+*/
+/* CUSTOM FILE UPLOAD */
+#file-upload{
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 0rem;
+}
+.customsubmit {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;    
+    background: white;
+    background-color: white;
+}
+.customsubmit:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;
+    margin-right: 15px;
+    background-color: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+/*
+.customsubmitrot {
+    pointer-events: none; 
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;    
+    background: white;
+    background-color: rgb(226, 109, 109);
+}
+.customsubmitrot:hover {
+    pointer-events: none;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;
+    margin-right: 15px;
+    background-color: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+.customsubmitgruen {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;    
+    background: white;
+    background-color: rgb(35, 255, 126);
+}
+.customsubmitgruen:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 0rem;
+    margin-right: 15px;
+    background-color: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+*/
+.customsubmit2 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 1rem;  
+    margin-right: 1rem;
+    width: 50%;  
+    background: white;
+    background-color: white;
+}
+.customsubmit2:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 1rem;
+    background: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+.customsubmit3 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 1rem;  
+    margin-right: 1rem;
+    width: 60%;  
+    color: white;
+    background: #a499c0(255, 255, 255);
+    background-color: #bcade4;
+}
+.customsubmit3:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    margin-top: 1rem;
+    background: #96c9a1;
+    transition: all 0.5s ease-in-out;
+}
+/* Für Kommentare (Antworten) */
+.customsubmit4 {    
+    border: 1px solid #ccc;
+    display: inline-block;
+    /* padding: 6px 7px; */
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    
+    width: 20%;  
+    background: white;
+    background-color: white;
+}
+.customsubmit4:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    /* padding: 6px 7px; */
+    cursor: pointer;
+    
+    background: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+/* Für Screenshot  */
+.customsubmit5 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+    
+    margin-right: 1rem;
+    width: 20%;  
+    background: white;
+    background-color: rgb(250, 182, 182);
+}
+.customsubmit5:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 7px;
+    cursor: pointer;
+
+    background: #b68bf760;
+    transition: all 0.5s ease-in-out;
+}
+.help-block {
+    color: #d13838;
+    font-size: 10px;
+}
+
+/* Login */
+.login-container{
+    width: 70%;
+}
+/* Logo SVG login */
+.logo_login {
+    position: absolute;
+    display: block;
+    left:12px; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    max-height: 200px;    
+ }
+ .logo_willkommen {    
+    display: block;    
+    margin:auto;    
+    margin-left: 50px;
+ }
+ 
+
+
+
+

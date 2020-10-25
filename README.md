@@ -23,7 +23,7 @@
       This project was done as a diploma-project whilst graduating in IT at the HTL Wien West, Vienna, Austria during the years 2019 - 2020.
       The topic of this project was 
     <br>
-      - "Development of a web-based media-database and corresponding projectrelated management application."<br>
+      "Development of a web-based media-database and corresponding projectrelated management application."<br>
 </p>
 
 ## 📝 Table of Contents
@@ -51,7 +51,7 @@ It consisted of realising the following tasks:
 
 <br>
 Three students worked in collaboration on this project, neither of the other two own a github account, which was evaluated as "very good" by the examination board of the school.
-The documentation of the diploma-project can be downloaded @ https://www.sequence.co.at/img/DA%20Sequence%20(Oktober%202020)%20(Unterschrieben).pdf
+The documentation of the diploma-project can be viewed @ <a href="https://www.sequence.co.at/img/DA%20Sequence%20(Oktober%202020)%20(Unterschrieben).pdf">HERE</a>
 (Write about 1-2 paragraphs describing the purpose of your project.)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>

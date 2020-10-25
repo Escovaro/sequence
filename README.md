@@ -45,10 +45,10 @@ It consisted of realising the following tasks:
 - Development of a database
 containing media-, employee-,
 stakeholder-, and project-related
-data.
+data
 <br>
 - Development of a graphical user
-interface (responsive design).
+interface (responsive design)
 <br>
 - Implementation of media-playback
 as well as up- and download
@@ -60,10 +60,10 @@ development of a notification
 system and user-related statistics)
 <br>
 - Realization of elemental pictureand video-manipulation
-functionalities.
+functionalities
 <br>
 - Development of an Android
-application.
+application
 
 <br>
 Write about 1-2 paragraphs describing the purpose of your project.

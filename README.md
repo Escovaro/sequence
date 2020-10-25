@@ -51,7 +51,7 @@ It consisted of realising the following tasks:
 
 <br>
 Three students worked in collaboration on this project, neither of the other two own a github account, which was evaluated as "very good" by the examination board of the school.
-The (german) documentation of the whole diploma-project can be viewed @ <a href="https://www.sequence.co.at/img/DA%20Sequence%20(Oktober%202020)%20(Unterschrieben).pdf">HERE</a> and the project itself can be visited unter www.sequence.co.at
+The (german) documentation of the whole diploma-project can be viewed <a href="https://www.sequence.co.at/img/DA%20Sequence%20(Oktober%202020)%20(Unterschrieben).pdf">here</a> and the project itself can be visited unter www.sequence.co.at
 <br>
 (Write about 1-2 paragraphs describing the purpose of your project.)
 

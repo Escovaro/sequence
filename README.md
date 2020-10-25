@@ -20,10 +20,10 @@
 <p align="center"> 
       This Readme-File is still a WIP!
     <br>
-      This project was done as a diploma-project for whilst graduating in IT at the HTL Wien West, Vienna, Austria.
+      This project was done as a diploma-project whilst graduating in IT at the HTL Wien West, Vienna, Austria during the years 2019 - 2020.
       The topic of this project was 
     <br>
-      >"Development of a web-based media-database and corresponding projectrelated management application."<br>
+      - "Development of a web-based media-database and corresponding projectrelated management application."<br>
 </p>
 
 ## 📝 Table of Contents
@@ -41,28 +41,28 @@
 ## 🧐 About <a name = "about"></a>
 It consisted of realising the following tasks:
 <br>
--Creation of a server environment
--Development of a database
+- Creation of a server environment
+- Development of a database
 containing media-, employee-,
 stakeholder-, and project-related
 data.
 <br>
--Development of a graphical user
+- Development of a graphical user
 interface (responsive design).
 <br>
--Implementation of media-playback
+- Implementation of media-playback
 as well as up- and download
 functionalities
 <br>
--Realization of administrative
+- Realization of administrative
 features (data management,
 development of a notification
 system and user-related statistics)
 <br>
--Realization of elemental pictureand video-manipulation
+- Realization of elemental pictureand video-manipulation
 functionalities.
 <br>
--Development of an Android
+- Development of an Android
 application.
 
 <br>

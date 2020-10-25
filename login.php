@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $param_email = $email;            
             //Abfrage ausführen
             if(mysqli_stmt_execute($stmt)){
-                //Speichern der Abfrage
+                //Speichern der Abfragen
                 mysqli_stmt_store_result($stmt);                
                 //Existiert der Benutzer?
                 if(mysqli_stmt_num_rows($stmt) == 1){                    

@@ -44,24 +44,21 @@ It consisted of realising the following tasks:
 - Creation of a server environment
 - Development of a database
 containing media-, employee-,
-stakeholder-, and project-related
-data
-<br>
+stakeholder-, and project-related data
 - Development of a graphical user
 interface (responsive design)
-<br>
+
 - Implementation of media-playback
-as well as up- and download
-functionalities
-<br>
+as well as up- and download functionalities
 - Realization of administrative
+
 features (data management,
 development of a notification
 system and user-related statistics)
-<br>
+
 - Realization of elemental pictureand video-manipulation
 functionalities
-<br>
+
 - Development of an Android
 application
 

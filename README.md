@@ -1,7 +1,7 @@
 <p align="center">
   <a href="" rel="noopener">
-  <object class="logo" data="https://https://www.sequence.co.at/img/Schriftlogo_mitlogo_SchwarzNEUGlow.svg" type="image/svg+xml"></object>
- <img width=200px height=200px src="https://https://www.sequence.co.at/img/background0.png" alt="Project logo"></a>
+<!-- <object class="logo" data="https://https://www.sequence.co.at/img/Schriftlogo_mitlogo_SchwarzNEUGlow.svg" type="image/svg+xml"></object> -->
+<!-- <img width=200px height=200px src="https://https://www.sequence.co.at/img/background0.png" alt="Project logo"></a> -->
 </p>
 
 <h3 align="center">SEQUENCE</h3>

@@ -50,10 +50,10 @@ It consisted of realising the following tasks:
 - Development of an Android application
 
 <br>
-Three students worked in collaboration on this project, neither of the other two own a github account, which was evaluated as "very good" by the examination board of the school.
+Three students worked in collaboration on this project, which was evaluated as "very good" by the examination board of the HTL.
 The (german) documentation of the whole diploma-project can be viewed <a href="https://www.sequence.co.at/img/DA%20Sequence%20(Oktober%202020)%20(Unterschrieben).pdf">here</a> and the project itself can be visited unter www.sequence.co.at
 <br>
-(Write about 1-2 paragraphs describing the purpose of your project.)
+<!-- (Write about 1-2 paragraphs describing the purpose of your project.) -->
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -64,7 +64,14 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 ```
-Give examples
+Leaving having a running server-environment aside, which was one main part of the project, we are going to focus here on the web-application itself, thus skipping the topics "android-application" and everything else regarding aforementioned server-environment.
+
+You´ll need the following:
+MySQL
+XAMPP
+Webbrowser
+IDE of choice
+
 ```
 
 ### Installing
